@@ -22,7 +22,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -o KasirKuPro-Professional-POS-v2-Printer-Auto-GitHub.zip -d project
+          unzip -o KasirKuPro-Professional-POS-BUILD-FIX.zip -d project
           cp -r project/* .
           cp -r project/.[!.]* . 2>/dev/null || true
 
